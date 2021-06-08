@@ -1,0 +1,16 @@
+{
+  "name": "@am/server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "flat": true,
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./am-meta.js": "./am-meta.js"
+  },
+  "dependencies": {
+    "@slq/serv": "^1.0.3",
+    "json-parse-safe": "^2.0.0"
+  }
+}
